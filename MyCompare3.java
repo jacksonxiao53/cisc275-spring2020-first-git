@@ -16,6 +16,8 @@ public class MyCompare3 {
 		Collections.sort(dogs, new Comparator<Animal>() {
 			@Override
 			public int compare(Animal a, Animal b){
+			    System.out.println(a +" " +b);
+			    System.out.println(a.getLegs()-b.getLegs());
 			    return a.getLegs() - b.getLegs();
 			}
 		});
