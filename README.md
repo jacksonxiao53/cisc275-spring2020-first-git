@@ -5,4 +5,4 @@
 Arraylist of dogs, 3 dog objects, and a comparator.
 
 3. Can you spot the Comparator constructor call? Where is the class definition for the Comparator?
-The Comparator constructor call is in Collections.sort(). The class definition for the Comparator comes with java.util.Comparator. 
+The Comparator constructor call is in Collections.sort(). The class definition is between the squiggly bracket.
